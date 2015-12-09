@@ -80,6 +80,7 @@ $list-col-colored-weight: normal;
 - Turn on/off a class that will remove bullets. If true a class of .list-no-bullets will be generated.
 - Default: false;
 - Type: Boolean
+```css
 $list-no-bullets: true;
 ```
 
@@ -87,5 +88,6 @@ $list-no-bullets: true;
 - Turn on/off colored lists. This will allow you to color the bullets of a list. If true a class of .list-colored will be generated.
 - Default: false;
 - Type: Number
+```css
 $list-colored: true;
 ```
