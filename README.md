@@ -70,6 +70,7 @@ $list-colored-padding-left: 15px;
 - Set the weight of the ordered list numbers.
 - Default: bold;
 - Type: String
+```css
 $list-col-colored-weight: normal;
 ```
 
