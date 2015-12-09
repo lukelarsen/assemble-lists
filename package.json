@@ -1,0 +1,18 @@
+{
+  "name": "assemble-lists",
+  "version": "1.0.0",
+  "description": "Lists for the Assemble CSS Framework.",
+  "main": "assemble-lists.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke Larsen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukelarsen/assemble-lists"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
