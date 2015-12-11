@@ -1,6 +1,6 @@
 {
   "name": "assemble-lists",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lists for the Assemble CSS Framework.",
   "main": "assemble-lists.css",
   "scripts": {
