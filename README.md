@@ -1,11 +1,11 @@
 [Assemble]:                http://assemblecss.com
-[Assemble Core]:           https://github.com/lukelarsen/assemble-core
+[Assemble Base]:           https://github.com/lukelarsen/assemble-base
 
 # Assemble Lists
 Assemble Lists is a component of the [Assemble] CSS Framework. It will give you a solid base for using svg icons in your project. It has some default styles that can easily be overridden so you can add your own look.
 
 ## Requirements
-Assemble Lists requires [Assemble Core].
+Assemble Lists requires [Assemble Base].
 
 ## Installation
 npm install assemble-lists --save-dev
@@ -28,9 +28,24 @@ gulp.task('css', function () {
         .pipe(gulp.dest('./dest'));
 });
 ```
+```html
+<ol>
+    <li>This is a list and stuff</li>
+    <li>And a list with a <a href="#">link</a> in it</li>
+    <li>And a third list.</li>
+    <li>Finally the last list here.</li>
+</ol>
+
+<ul>
+    <li>This is a list and stuff</li>
+    <li>And a list with a <a href="#">link</a> in it</li>
+    <li>And a third list.</li>
+    <li>Finally the last list here.</li>
+</ul>
+```
 
 ## Options
-Options are set with variables. These variables are already set with their default values so they will just work out of the box. If you wish to change them just define the variable you want to change before you load the _assemble-lists.css file. You may wish you see [Assemble Core] for more examples and directions for setting up a Assemble project.
+Options are set with variables. These variables are already set with their default values so they will just work out of the box. If you wish to change them just define the variable you want to change before you load the _assemble-lists.css file. You may wish you see [Assemble Base] for more examples and directions for setting up a Assemble project.
 
 ### Design Variables
 
@@ -83,6 +98,15 @@ $list-col-colored-weight: normal;
 ```css
 $list-no-bullets: true;
 ```
+Usage
+```html
+<ul class="list-no-bullets">
+    <li>This is a list and stuff</li>
+    <li>And a list with a <a href="#">link</a> in it</li>
+    <li>And a third list.</li>
+    <li>Finally the last list here.</li>
+</ul>
+```
 
 ##### $list-colored
 - Turn on/off colored lists. This will allow you to color the bullets of a list. If true a class of .list-colored will be generated.
@@ -90,4 +114,20 @@ $list-no-bullets: true;
 - Type: Number
 ```css
 $list-colored: true;
+```
+Usage
+```html
+<ol class="list-colored">
+    <li>This is a list and stuff</li>
+    <li>And a list with a <a href="#">link</a> in it</li>
+    <li>And a third list.</li>
+    <li>Finally the last list here.</li>
+</ol>
+
+<ul class="list-colored">
+    <li>This is a list and stuff</li>
+    <li>And a list with a <a href="#">link</a> in it</li>
+    <li>And a third list.</li>
+    <li>Finally the last list here.</li>
+</ul>
 ```
