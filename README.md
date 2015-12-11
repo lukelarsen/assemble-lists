@@ -15,12 +15,12 @@ npm install assemble-lists --save-dev
 ```js
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var assembleCore = require('assemble-core');
+var assembleBase = require('assemble-base');
 var assembleLists = require('assemble-lists');
 
 gulp.task('css', function () {
     var processors = [
-        assembleCore,
+        assembleBase,
         assembleLists
     ];
     return gulp.src('./src/*.css')
